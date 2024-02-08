@@ -70,8 +70,8 @@ p{
     text-align: right;
 }
 .main-card .image img{
-    height: 300px;
-    max-width: 250px;
+    height: 280px;
+    max-width: 220px;
  }
 .footer{
     width: 100%;
@@ -82,7 +82,7 @@ p{
 .footer img{
     width: 130px;
     position: relative;
-    top: -30px;
+    top: -25px;
 }
 
 

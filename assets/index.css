@@ -71,10 +71,9 @@ p{
     color: #12363E;
     text-align: right;
 }
-/* .main-card .image img{
-    max-width: 100%;
-    height: auto;
-} */
+.main-card .image img{
+    max-width: 350px;
+ }
 .footer{
     width: 100%;
     max-width: 500px;

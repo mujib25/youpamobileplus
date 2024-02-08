@@ -48,11 +48,11 @@ html, body {
     z-index: 1;
 }
 h3{
-    font-size: 40px;
+    font-size: 28px;
     font-weight: bold;
     color: #12363E;
     text-align: right;
-    line-height: 34px;
+    line-height: 23px;
     width: 100%;
     margin-left: auto;
 }
@@ -62,12 +62,11 @@ h3{
     padding-top: 60px;
 }
 p{
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 16px;
+    line-height: 20px;
     color: #12363E;
     text-align: right;
-    
-}
+    }
 .main-card .image{
     padding: 0vw 8vw;
 }

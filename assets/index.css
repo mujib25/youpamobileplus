@@ -48,6 +48,12 @@ html, body {
     transform: skew(0deg,-5deg);
     z-index: 1;
 }
+.detail{
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-top: 45px;
+}
 h3{
     font-size: 24px;
     font-weight: bold;
@@ -58,12 +64,7 @@ h3{
     max-width: 250px;
     margin-left: auto;
 }
-.detail{
-    width: 100%;
-    max-width: 300px;
-    margin: 0 auto;
-    padding: 34px 0px
-}
+
 p{
     font-size: 16px;
     line-height: 20px;

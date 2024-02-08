@@ -54,7 +54,6 @@ h3{
     text-align: right;
     line-height: 34px;
     width: 100%;
-    padding: 0px 10vw;
     margin-left: auto;
 }
 .detail{
@@ -67,7 +66,7 @@ p{
     line-height: 27px;
     color: #12363E;
     text-align: right;
-    padding: 0px 10vw;
+    
 }
 .main-card .image{
     padding: 0vw 8vw;

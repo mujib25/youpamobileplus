@@ -73,14 +73,13 @@ p{
 .footer img{
     width: 120px;
 }
-
-@media only screen and (max-width:600px){
+@media only screen and (device-width: 600px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
     .main-card .image img{
-            max-width: 500px !important;
-            height: 500px !important;
-        }
-       .main-card{
-        margin-top: 70px;
-       }
+        max-width: 500px !important;
+        height: 500px !important;
     }
-    
+   .main-card{
+    margin-top: 70px;
+   }
+}
+

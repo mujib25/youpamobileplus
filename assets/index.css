@@ -23,7 +23,7 @@ html, body {
 .skew-back::after{
     content: '';
     position: absolute;
-    height: 250px;
+    height: 220px;
     width: 10px;
     background-color: #12363E;
     border-radius: 20px;
@@ -128,6 +128,15 @@ p{
     }
    .main-card{
     margin-top: 50px;
+   }
+}
+@media only screen and (max-width:489px){
+    .main-card .image img{
+        max-width: 500px !important;
+        height: 400px !important;
+    }
+   .main-card{
+    margin-top: 70px;
    }
 }
    

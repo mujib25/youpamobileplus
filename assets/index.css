@@ -73,15 +73,7 @@ p{
 .footer img{
     width: 120px;
 }
-@media only screen and (max-width:414px){
-.main-card .image img{
-        max-width: 500px !important;
-        height: 500px !important;
-    }
-   .main-card{
-    margin-top: 70px;
-   }
-}
+
 @media only screen and (max-width:600px){
     .main-card .image img{
             max-width: 500px !important;

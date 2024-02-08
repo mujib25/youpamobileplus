@@ -9,7 +9,7 @@ html, body {
     overflow: hidden;
     height: 100vh;
 }
-   .skew-back {
+.skew-back {
     content: "";
     position: absolute;
     top: 0;
@@ -19,8 +19,18 @@ html, body {
     background-color: #12363E;
     transform: skew(0deg, -5deg);
     z-index: 10;
-  } 
-  .main-card::after {
+}
+.skew-back::after{
+    content: '';
+    position: absolute;
+    height: 250px;
+    width: 10px;
+    background-color: #12363E;
+    border-radius: 20px;
+    right: 6px;
+    top: 150%;
+} 
+.main-card::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -29,7 +39,7 @@ html, body {
     background-color: #12363E; 
     transform: skew(0deg, -5deg);
     z-index: 1;
-  }
+}
 .main-card{
     background-color: #12363E;
     background-image: linear-gradient(to top, #12363E, #fff);
@@ -84,7 +94,6 @@ p{
     margin-top: 70px;
    }
 }
-
 @media only screen and (max-width:430px){
     .main-card .image img{
         max-width: 500px !important;
@@ -101,6 +110,15 @@ p{
     }
    .main-card{
     margin-top: 70px;
+   }
+}
+@media only screen and (max-width:375px){
+    .main-card .image img{
+        max-width: 200px !important;
+        height: 300px !important;
+    }
+   .main-card{
+    margin-top: 50px;
    }
 }
 @media only screen and (max-width:360px){

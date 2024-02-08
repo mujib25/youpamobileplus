@@ -41,6 +41,7 @@ html, body {
     content: "";
     position: absolute;
     bottom: 0;
+    
     width: 100%;
     height: 75px;
     background-color: #12363E; 
@@ -48,27 +49,26 @@ html, body {
     z-index: 1;
 }
 h3{
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
     color: #12363E;
     text-align: right;
     line-height: 23px;
     width: 100%;
+    max-width: 250px;
     margin-left: auto;
 }
 .detail{
     width: 100%;
+    max-width: 300px;
     margin: 0 auto;
-    padding-top: 60px;
+    padding: 34px 0px
 }
 p{
     font-size: 16px;
     line-height: 20px;
     color: #12363E;
     text-align: right;
-    }
-.main-card .image{
-    padding: 0vw 8vw;
 }
 .main-card .image img{
     max-width: 100%;

@@ -102,3 +102,18 @@ p{
         height: 470px;
     }
 }
+@media only screen and (max-width: 390px) {
+ .main-card .image img{
+        max-width: 500px;
+        height: 450px;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .detail{
+        max-width: 360px;
+    }
+    .main-card .image img{
+           max-width: 550px;
+           height: 520px;
+       }
+   }

@@ -69,7 +69,10 @@ p{
     color: #12363E;
     text-align: right;
 }
-
+.main-card .image img{
+    max-width: 150px;
+    height: auto;
+}
 .footer{
     width: 100%;
     max-width: 500px;
@@ -81,7 +84,7 @@ p{
 }
 
 
-@media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 375px) {
     .main-card{
         margin-top: 50px;
     }
@@ -113,4 +116,4 @@ p{
            max-width: 550px;
            height: 520px;
        }
-   }
+   } */

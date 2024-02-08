@@ -29,7 +29,7 @@ html, body {
 .skew-back::after{
     content: '';
     position: absolute;
-    height: 240px;
+    height: 220px;
     width: 10px;
     background-color: #12363E;
     border-radius: 20px;
